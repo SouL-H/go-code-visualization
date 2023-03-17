@@ -12,7 +12,7 @@ go get -u github.com/ofabry/go-callvis
 export PATH=$PATH:$(go env GOPATH)/bin
 ```
 
-## Step Third
+## Third Step
 ```go
 go-callvis <package_name>
 
@@ -26,4 +26,9 @@ exp:go-callvis go-visualization
 
 ## Example
 
+```go
+go-callvis go-visualization
+```
+
 ![Logo](/demo/demo.png)
+
